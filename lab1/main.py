@@ -1,7 +1,6 @@
 import numpy as np
 import os
 
-DATA_PATH = "A:/"
 
 def read_matrix_from_file(filename, size, matrix_name):
     with open(filename, 'r', encoding='utf-8') as f:
@@ -96,4 +95,5 @@ if __name__ == "__main__":
     if all_passed:
         print("\nAll tests PASSED.")
     else:
+
         print("\nSome tests FAILED.")
